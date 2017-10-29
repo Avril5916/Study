@@ -1,2 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<!-- 我的ioc xml配置 -->
+<MyIoc>
+
+	<Beans>
+		<bean id="Users" class="com.avril.domain.Users" singleton="true"></bean>
+		<bean id="WarCraft" class="com.avril.domain.WarCraft" singleton="true"></bean>
+		<bean id="StarCraft" class="com.avril.domain.StarCraft" singleton="true"></bean>
+	</Beans>
+
+	
+
+
+</MyIoc>
